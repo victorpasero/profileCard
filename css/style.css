@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(45deg, white, rgb(209, 240, 198), #ffc);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+.card {
+    box-shadow: 0 4px 20px 0 rgba(8, 30, 6, 0.2);
+    max-width: 500px;
+    margin: 75px auto;
+    text-align: center;
+  }
+
+.imagen {
+    transition: transform .3s;
+    width: 95%;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: 3px solid rgb(71, 158, 40)
+  }
+ 
+.imagen:hover {
+    transform: scale(1.3); 
+    box-shadow: 10px 10px 10px 10px rgba(8, 8, 8, 0.2);
+  }
+  
+  .titulo {
+    color: grey;
+    font-size: 20px;
+  }
+  
+  button {
+    border: none;
+    display: inline-block;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 25%;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+  }
+
+  a:hover {
+    color: green;
+  }
+  
+  button:hover  {
+    opacity: 0.7;
+    background-color: green;
+  }
+  
