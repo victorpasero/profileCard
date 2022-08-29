@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(45deg, white, rgb(209, 240, 198), #ffc);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(90deg, #b4f2a0 0, #a1ec9c 16.67%, #89e397 33.33%, #6cd890 50%, #49cd8a 66.67%, #10c488 83.33%, #00bd88 100%);
+    font-family: 'Roboto', sans-serif;
   }
 
 .card {
@@ -15,7 +15,7 @@ body {
     width: 95%;
     border-radius: 20px;
     margin-top: 10px;
-    border: 3px solid rgb(71, 158, 40)
+    border: 3px solid #073B3A
   }
  
 .imagen:hover {
@@ -24,7 +24,7 @@ body {
   }
   
   .titulo {
-    color: grey;
+    color: #073B3A;
     font-size: 20px;
   }
   
@@ -33,7 +33,7 @@ body {
     display: inline-block;
     padding: 12px;
     color: white;
-    background-color: #000;
+    background-color: #0B6E4F;
     text-align: center;
     cursor: pointer;
     width: 25%;
@@ -48,11 +48,11 @@ body {
   }
 
   a:hover {
-    color: green;
+    color: #0B6E4F;
   }
   
   button:hover  {
     opacity: 0.7;
-    background-color: green;
+    background-color: #0B6E4F;
   }
   
